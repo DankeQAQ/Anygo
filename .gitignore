@@ -1,0 +1,30 @@
+backend/runtime_settings.json
+backend/data/trip_tasks
+
+# Dependencies
+node_modules/
+frontend/node_modules/
+
+# Build output
+dist/
+frontend/dist/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# Environment and local runtime
+.env
+.env.*
+!.env.example
+
+# OS and editor
+.DS_Store
+.idea/
+
+# Local archives
+*.zip
+!*.example.zip

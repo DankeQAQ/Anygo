@@ -1,0 +1,21 @@
+{
+  "editor.formatOnSave": true,
+  "editor.tabSize": 2,
+  "files.exclude": {
+    "**/.DS_Store": true,
+    "**/__pycache__": true,
+    "**/*.pyc": true,
+    "frontend/node_modules": true,
+    "frontend/dist": true,
+    "backend/data": true,
+    "backend/runtime_settings.json": true
+  },
+  "search.exclude": {
+    "frontend/node_modules": true,
+    "frontend/dist": true,
+    "backend/data": true,
+    "**/__pycache__": true
+  },
+  "python.defaultInterpreterPath": "${workspaceFolder}/backend/.venv/bin/python",
+  "typescript.tsdk": "frontend/node_modules/typescript/lib"
+}

@@ -1,0 +1,29 @@
+services:
+  anygo:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        VITE_AMAP_WEB_JS_KEY: ${VITE_AMAP_WEB_JS_KEY:-your_amap_web_js_api_key_here}
+        VITE_AMAP_WEB_KEY: ${VITE_AMAP_WEB_KEY:-your_amap_web_api_key_here}
+    container_name: anygo
+    ports:
+      - "7860:7860"
+    environment:
+      - LLM_API_KEY=${LLM_API_KEY:-your_key}
+      - LLM_BASE_URL=${LLM_BASE_URL:-your_url}
+      - LLM_MODEL_ID=${LLM_MODEL_ID:-your_model}
+      - LLM_TIMEOUT=${LLM_TIMEOUT:-600}
+      - VITE_AMAP_WEB_KEY=${VITE_AMAP_WEB_KEY:-your_amap_web_api_key_here}
+      - XHS_COOKIE=${XHS_COOKIE:-your_xhs_cookie_here}
+      - GOOGLE_MAPS_API_KEY=${GOOGLE_MAPS_API_KEY:-}
+      - GOOGLE_MAPS_PROXY=${GOOGLE_MAPS_PROXY:-}
+      - HOST=0.0.0.0
+      - PORT=7860
+      - LOG_LEVEL=INFO
+    volumes:
+      - trip_data:/app/backend/data
+    restart: unless-stopped
+
+volumes:
+  trip_data:

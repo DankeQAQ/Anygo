@@ -1,0 +1,33 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Frontend: dev",
+      "type": "shell",
+      "command": "npm run dev -- --host 0.0.0.0",
+      "options": { "cwd": "${workspaceFolder}/frontend" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Frontend: build",
+      "type": "shell",
+      "command": "npm run build",
+      "options": { "cwd": "${workspaceFolder}/frontend" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Backend: install",
+      "type": "shell",
+      "command": "python3 -m pip install -r requirements.txt",
+      "options": { "cwd": "${workspaceFolder}/backend" },
+      "problemMatcher": []
+    },
+    {
+      "label": "Backend: dev",
+      "type": "shell",
+      "command": "python3 -m uvicorn app.api.main:app --host 127.0.0.1 --port 8000",
+      "options": { "cwd": "${workspaceFolder}/backend" },
+      "problemMatcher": []
+    }
+  ]
+}

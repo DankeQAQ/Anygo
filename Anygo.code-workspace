@@ -1,0 +1,16 @@
+{
+  "folders": [
+    { "name": "Anygo", "path": "." },
+    { "name": "Frontend", "path": "frontend" },
+    { "name": "Backend", "path": "backend" }
+  ],
+  "settings": {
+    "files.exclude": {
+      "**/.DS_Store": true,
+      "**/__pycache__": true,
+      "**/*.pyc": true,
+      "Frontend/node_modules": true,
+      "Frontend/dist": true
+    }
+  }
+}
