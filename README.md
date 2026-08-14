@@ -1,5 +1,5 @@
 <div align="center">
-  <img width="400" alt="Anygo brand" src="https://github.com/user-attachments/assets/50c490da-9042-4661-bf8f-f7fd8084a506" />
+  <img width="520" alt="Anygo logo" src="docs/anygo-logo.svg" />
 </div>
 
 <p align="center">

@@ -1,0 +1,10 @@
+<svg width="900" height="260" viewBox="0 0 900 260" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">Anygo logo</title>
+  <desc id="desc">Anygo wordmark with a travel route and plane symbol.</desc>
+  <rect width="900" height="260" fill="white"/>
+  <path d="M220 134C307 67 407 89 494 110C589 133 682 149 760 76" stroke="#17627A" stroke-width="14" stroke-linecap="round"/>
+  <path d="M734 58L824 36L781 86L784 132L754 96L702 109L734 58Z" fill="#17627A"/>
+  <path d="M833 82L842 98L860 102L846 114L848 132L833 123L817 132L821 114L807 102L825 98L833 82Z" fill="#17627A"/>
+  <text x="78" y="178" font-family="Inter, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="132" font-weight="800" fill="#17627A">Anygo</text>
+  <text x="88" y="220" font-family="Inter, Avenir Next, Helvetica Neue, Arial, sans-serif" font-size="26" font-weight="500" fill="#5E7C88">AI travel planner for anywhere you go</text>
+</svg>

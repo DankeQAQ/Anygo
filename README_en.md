@@ -2,7 +2,9 @@
 
 
 > **A Multi-Agent Collaborative Travel Planning Platform Based on the HelloAgents Framework**
-<img width="1823" height="805" alt="image" src="https://github.com/user-attachments/assets/e7fb750f-32e5-4a77-93f7-e7b1c4e5e915" />
+<div align="center">
+  <img width="520" alt="Anygo logo" src="docs/anygo-logo.svg" />
+</div>
 <p align="center">
   <img src="https://img.shields.io/badge/license-GPL--2.0-orange">
   <img src="https://img.shields.io/badge/version-v2.1.0-green">

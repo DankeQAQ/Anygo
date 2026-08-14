@@ -2,7 +2,9 @@
 
 
 > **HelloAgents フレームワークに基づくマルチエージェント連携の旅行計画プラットフォーム**
-<img width="1804" height="815" alt="image" src="https://github.com/user-attachments/assets/4bf6f5b1-b67d-4df6-9690-f99367fef473" />
+<div align="center">
+  <img width="520" alt="Anygo logo" src="docs/anygo-logo.svg" />
+</div>
 <p align="center">
   <img src="https://img.shields.io/badge/license-GPL--2.0-orange">
   <img src="https://img.shields.io/badge/version-v2.1.0-green">
